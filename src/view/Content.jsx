@@ -1,5 +1,6 @@
 import { react, useState } from "react";
-import imageContent from '../assets/meditationbw1.svg';
+import imageContentMat from '../assets/mat.svg';
+import imageContentBackground from '../assets/background.svg'
 import { withStyles } from "@material-ui/styles";
 import Button from '@material-ui/core/Button';
 import '../view/Content.css'
@@ -59,7 +60,9 @@ const ContentSection1 = () => {
                 </div>
 
                 <div className="image">
-                    <img className="image-content" src={imageContent} alt="image content" />
+                    <img className="image-content" src={imageContentBackground} alt="image content background" />
+                    <img className="image-content image-content--animated" src={imageContentMat} alt="image content human" />
+            
                 </div>   
             </div>
         );
