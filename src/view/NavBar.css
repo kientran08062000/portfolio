@@ -1,0 +1,22 @@
+.NavBar { 
+    height: 96px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 6px 14px rgba(51, 54, 60, 0.06);
+}
+
+.logo { 
+    margin-left: 320px;
+}
+
+.menuAndSearch { 
+    margin-right: 320px;
+}
+
+.searchIcon { 
+    margin-right: 24px;
+}
+
+
